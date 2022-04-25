@@ -9,7 +9,6 @@ tags:
   - programming
   - essentials
   - tests
-  - adf
 thumbnailImagePosition: left
 thumbnailImage: https://programaenlinea.net/wp-content/uploads/2019/04/testing-1.jpg
 ---
