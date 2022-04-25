@@ -2,8 +2,7 @@
 title: "Welcome to My Blog"
 date: 2022-04-24
 categories:
-- blog
-- technology
+- programming
 tags:
 - technology
 - introduction
