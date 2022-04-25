@@ -1,4 +1,4 @@
----
+<!-- ---
 title: "Cover image showcase"
 thumbnailImagePosition: left
 thumbnailImage: //d1u9biwaxjngwg.cloudfront.net/cover-image-showcase/city-750.jpg
@@ -11,7 +11,7 @@ categories:
 - features
 tags:
 - cover image
----
+--- -->
 
 Tranquilpeak integrate a unique "cover image" feature. Open this post to see how this feature sublimate your article.
 
