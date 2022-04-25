@@ -6,7 +6,27 @@
     <description>Recent content in Posts on Mekishiko-jin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 24 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://felixvelazco.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 25 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://felixvelazco.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pruebas, pruebas y más pruebas</title>
+      <link>https://felixvelazco.github.io/2022/04/pruebas-pruebas-y-m%C3%A1s-pruebas/</link>
+      <pubDate>Mon, 25 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://felixvelazco.github.io/2022/04/pruebas-pruebas-y-m%C3%A1s-pruebas/</guid>
+      <description>&lt;p&gt;Hola de nuevo! Alguna vez se han preguntado de qué manera se puede corroborar que tu código en verdad funcione como debería 😎?&amp;hellip; No realmente?😅 
+Pues aún así, este será tu día de suerte!&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Git o Github? esa es la cuestión</title>
+      <link>https://felixvelazco.github.io/2022/04/git-o-github-esa-es-la-cuesti%C3%B3n/</link>
+      <pubDate>Sun, 24 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://felixvelazco.github.io/2022/04/git-o-github-esa-es-la-cuesti%C3%B3n/</guid>
+      <description>&lt;p&gt;Cuantas veces hemos escuchado hablar sobre &lt;em&gt;Github&lt;/em&gt; y &lt;em&gt;Git&lt;/em&gt; son la misma cosa? 
+Y pues, si bien, están relacionadas entre si, no son lo mismo, y hoy veremos esas diferencias, &lt;strong&gt;Let&amp;rsquo;s GO!&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>Welcome to My Blog</title>
       <link>https://felixvelazco.github.io/2022/04/welcome-to-my-blog/</link>
