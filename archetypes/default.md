@@ -1,6 +1,11 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
-draft: true
+categories:
+  - Categoria
+tags:
+  - Tag1
+thumbnailImagePosition: left
+thumbnailImage: https://www.uxlift.org/assets/images/iu.png
 ---
 
