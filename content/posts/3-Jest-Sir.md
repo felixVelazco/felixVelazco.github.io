@@ -91,7 +91,7 @@ Ya por último, modificamos la línea de `"test": "echo \"Error: no test specifi
 
 {{< alert info>}} 
 Esta sintaxis solo aplica para windows, para sistemas Linux/Unix usar `"test": "node ./node_modules/.bin/jest"`
-{{ /alert}}
+{{ < /alert> }}
 
 Y así nuestro `package.json` quedó listo
 
