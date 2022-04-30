@@ -23,6 +23,7 @@ Y hoy seré su guia para instalar, desarrollar y probar sus blogs. Así que empe
 
 ## Requisitos
 - Tener instalado [chocolatey](https://chocolatey.org/install)
+- Tener [git](https://git-scm.com/download)
 - Tener ciertos conocimientos básicos de programación (opcional)
 
 ## Instalación
@@ -67,8 +68,7 @@ todas se encuentran vacias.
 
 ### Obtener nuestro tema
 
-El siguiente paso es, acceder al siguiente [link](https://themes.gohugo.io/) en donde encontraremos todos los temas que podemos instalar para nuestro blog. Yo en este caso, utilizaré 
-el mismo que el de este blog, que es (tranquilpeak)[https://themes.gohugo.io/themes/hugo-tranquilpeak-theme/].
+El siguiente paso es, acceder al siguiente [link](https://themes.gohugo.io/) en donde encontraremos todos los temas que podemos instalar para nuestro blog. Yo en este caso, utilizaré [tranquilpeak](https://themes.gohugo.io/themes/hugo-tranquilpeak-theme/).
 
 Nos movemos a la carpeta `themes`, y clonamos el repositorio de github
 
@@ -77,7 +77,7 @@ Nos movemos a la carpeta `themes`, y clonamos el repositorio de github
 ```
 
 Ahora bien, este tema viene consigo con un ejemplo ya a la mano, y para facilitarnos la vida, 
-utilizaremos esto para agilizar el proceso, así que copiamos los archivos en la carpeta `exampleSite`, y los pegamos en la raiz del proyecto, esto se puede hacer de manera manual, o con el siguiente comando:
+utilizaremos esto para agilizar el proceso, así que copiamos los archivos en la carpeta `themes/nombre-del-tema/exampleSite`, y los pegamos en la raiz del proyecto, esto se puede hacer de manera manual, o con el siguiente comando:
 
 {{< alert warning >}} Debes de estar en la carpeta raiz al ejecutarlo.{{< /alert >}}
 
@@ -94,3 +94,80 @@ Este archivo puede variar en sus requisitos dependiendo del tema que estés usan
 {{< /alert >}}
 
 ### Creando nuestro primer post
+
+De la misma manera, cada tema tiene sus funciones adicionales para crear cada post, por lo que puedes acceder a ver en tu carpeta `content/posts` y ver los códigos de ejemplo que tienes, pero la manera general de crear uno es con la siguiente línea de comando.
+
+```console
+> hugo new posts/nombre_de_tu_post.md
+```
+
+Este comando lo que hace, es tomar crear un nuevo `archivo.md`, tomando el arquetipo `posts`. Un arquetipo es como una plantilla para crear tus posts de manera más rápida. El arquetipo por default te crea un archivo con el siguiente formato
+
+{{< codeblock "nombre-de-tu-post.md" "md">}}
+---
+title: "nombre-de-tu-post"
+date: 2022-04-29T16:10:37-06:00
+draft: true
+---
+{{< /codeblock >}}
+
+De la misma manera, podemos nosotros crear nuestros propios arquetipos, y utilizarlo para facilitar la creación de nuevos posts. Imáginemos que creamos el arquetipo `biografia` en la carpeta `archetypes`, y queremos crear un post con este formato, usamos el comando:
+
+```console
+> hugo new biografia/nombre_de_tu_post.md
+```
+
+Si es el primer post que haces, este te creará una carpeta `biografia` dentro de la carpeta `content`. Si en dado caso quieres guardar esos blogs en otra carpeta (por ejemplo, en `posts`), solo tienes que hacer los siguiente:
+
+```console
+> hugo new -k biografia posts/nombre_de_tu_post.md
+```
+
+{{< alert info >}}Si no existe el arquetipo con el que le intentas crear tu post, automáticamente te creará el archivo con el arquetipo `default`. {{< /alert >}}
+
+{{< codeblock "nombre-post.md" "md">}}
+---
+title: "Nuevo post"
+date: 2022-04-29T16:10:37-06:00
+categories:
+- Tecnología
+tags:
+- Ejemplo
+- Tranquilpeak
+thumbnailImagePosition: left
+thumbnailImage: https://img.freepik.com/vector-gratis/colorida-bienvenida-dibujada-mano-pagina-inicio_23-2148274061.jpg?w=2000_
+---
+
+Todo lo que muestres antes del `<!-- more-->`, se mostrará como una 
+*preview* del contenido 
+<!--more-->
+
+# Blog
+
+Aquí va todo el contenido del mismo, puedes insertar imágenes, código, alertas,
+entre otras cosas, verifica el ejemplo o la documentación oficial para 
+ver más detalles.
+{{< /codeblock>}}
+
+Con esto hecho, es hora de ver como se ve nuestro blog
+
+### Servidor local
+Para poder visualizar nuestro blog de manera local (es decir, solo en tu computadora), corremos el comando de:
+
+```console
+> hugo server
+```
+Este iniciará un servidor en el link `http://localhost:1313/`
+{{< alert info >}} 
+El puerto `1313` es el puerto por default para Hugo, aunque si intentas abrir más blogs al mismo tiempo, entonces este puede cambiar, por lo que se aconseja siempre revisar el puerto que le indica la terminal al correr el comando anterior.
+{{< /alert >}} 
+
+Entramos al link, y nos encontramos con la página principal, y su interfaz, veremos todos los posts de ejemplos y entre ellos el que acabamos de crear.
+Después de esto ya puedes borrar esos posts y empezar a crear los tuyos. 
+
+![Hugo Blog](/images/3-mi-primer-blog-con-hugo/hugo-blog.gif)
+
+Y con esto terminamos por el día de hoy, espero que esta información les sirva, y motive a crear sus propios blogs. De momento esto aún está de manera local, y ya en el siguiente post les mostraré como pueden subir su blog con [Github pages](https://pages.github.com/). 
+
+
+
