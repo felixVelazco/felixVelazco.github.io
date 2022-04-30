@@ -6,7 +6,16 @@
     <description>Recent content in programming on Mekishiko-jin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 25 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://felixvelazco.github.io/tags/programming/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 29 Apr 2022 00:01:13 -0600</lastBuildDate><atom:link href="https://felixvelazco.github.io/tags/programming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Crea tu propio blog con Hugo!</title>
+      <link>https://felixvelazco.github.io/2022/04/crea-tu-propio-blog-con-hugo/</link>
+      <pubDate>Fri, 29 Apr 2022 00:01:13 -0600</pubDate>
+      
+      <guid>https://felixvelazco.github.io/2022/04/crea-tu-propio-blog-con-hugo/</guid>
+      <description>&lt;p&gt;No les puedo hablar sobre temas de programación en mi blog sin mencionarles antes el como es que cree mi blog, y justo es lo que veremos el día de hoy, y lo haremos posible con nuestro amigo &lt;strong&gt;HUGO&lt;/strong&gt;.&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>Pruebas, pruebas y más pruebas</title>
       <link>https://felixvelazco.github.io/2022/04/pruebas-pruebas-y-m%C3%A1s-pruebas/</link>
