@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>javascript on Mekishiko-jin</title>
+    <link>https://felixvelazco.github.io/tags/javascript/</link>
+    <description>Recent content in javascript on Mekishiko-jin</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 28 Apr 2022 02:18:48 -0600</lastBuildDate><atom:link href="https://felixvelazco.github.io/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Jest Sir!</title>
+      <link>https://felixvelazco.github.io/2022/04/jest-sir/</link>
+      <pubDate>Thu, 28 Apr 2022 02:18:48 -0600</pubDate>
+      
+      <guid>https://felixvelazco.github.io/2022/04/jest-sir/</guid>
+      <description>&lt;p&gt;Hola a todos los que lean esto! En el blog anterior les hable de manera general sobre la definición y la utilidad de las muestras unitarias en la creación de
+software, ahora toca ver la versión práctica del código, así que vamos a darle!&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
