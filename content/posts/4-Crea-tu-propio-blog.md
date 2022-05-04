@@ -63,8 +63,24 @@ Just a few more steps and you're ready to go:
 Visit https://gohugo.io/ for quickstart guide and full documentation.
 ```
 
-Entramos a nuestro nuevo proyecto con el comando `cd mi_primer_blog`, y con `ls` veremos todos los archivos que hay en la carpeta. Si accedemos a cada una de las carpetas, veremos que casi
-todas se encuentran vacias.
+Entramos a nuestro nuevo proyecto con el comando `cd mi_primer_blog`, y con `ls` veremos todos los archivos que hay en la carpeta. Si accedemos a cada una de las carpetas, veremos que casi todas se encuentran vacias.
+
+Aquí es un buen momento para iniciar nuestro repositorio en *git*, esto se hace con el comando 
+
+```console
+> git init
+```
+
+De aquí en adelante, cada vez que hagamos un cambio sustancial, podemos correr los siguientes comandos
+
+```console
+> git add nombreArchivoModificado
+> git commit -m "Agregar descripcion de la modificacion"
+```
+
+Otro comando importante sería `git status`, el cual te ayudará a ver cuales son los archivos que se han modificado.
+
+Si bien, esto es de manera general, de momento esto sería lo más importante para continuar con el blog y tenerlo actualizado, si están interesados en saber más comandos de git, puedo hacer un post más adelante. 
 
 ### Obtener nuestro tema
 
