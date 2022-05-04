@@ -11,3 +11,8 @@ thumbnailImage: https://www.uxlift.org/assets/images/iu.png
 
 
 <!--more-->
+
+## Requisitos
+- first
+## Instalación
+- first
