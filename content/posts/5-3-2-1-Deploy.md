@@ -4,6 +4,7 @@ date: 2022-05-04T00:32:37-06:00
 categories:
   - programming
 tags:
+  - git
   - github
   - github pages
   - github actions
