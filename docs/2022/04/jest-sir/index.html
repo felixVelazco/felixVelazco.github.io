@@ -421,8 +421,8 @@ pruebas unitarias)</p>
 
 <p>Ya por último, modificamos la línea de <code>&quot;test&quot;: &quot;echo \&quot;Error: no test specified\&quot; &amp;&amp; exit 1&quot;</code> por <code>&quot;test&quot;: &quot;node ./node_modules/jest/bin/jest&quot;</code></p>
 <div class="alert info ">
-  <p><p>Esta sintaxis solo aplica para windows, para sistemas Linux/Unix usar <code>&quot;test&quot;: &quot;node ./node_modules/.bin/jest&quot;</code>
-{{ &lt; /alert&gt; }}</p>
+  <p>Esta sintaxis solo aplica para windows, para sistemas Linux/Unix usar &ldquo;test&rdquo;: &ldquo;node ./node_modules/.bin/jest&rdquo;</p>
+</div>
 <p>Y así nuestro <code>package.json</code> quedó listo</p>
 <h4 id="creación-de-nuestras-carpetas-y-archivos">Creación de nuestras carpetas y archivos</h4>
 <p>Pasamos a crear dos carpetas llamadas <code>app</code> y <code>test</code>. En la primer carpeta crearemos un archivo llamado <code>mascota.js</code>, mientras que en
@@ -432,39 +432,64 @@ la segunda un archivo <code>mascota.test.js</code>. Debe de quedar una distribuc
 <p>En el post anterior había mencionado que el TDD es una técnica que ayuda a crear código en base a pruebas, y que consta de 3 pasos.</p>
 <h5 id="1-hacer-una-prueba-que-falle">1. Hacer una prueba que falle</h5>
 <p>Abrimos el archivo <code>mascota.test.js</code> y creamos el siguiente código</p>
-<!-- raw HTML omitted -->
-<pre><code>  &lt;span&gt;mascota.test.js&lt;/span&gt;
-</code></pre>
-<!-- raw HTML omitted -->
-<p>//Crea una suite donde estarán todas tus pruebas
-describe('Unit test suite para Clase Mascota',() =&gt;{
+<p>
+  
+    
+  
+  
+    
+  
+  
+  
+
+
+<figure class="highlight js language-js">
+  <figcaption>
+    
+      <span>mascota.test.js</span>
+    
+  </figcaption>
+  <table>
+    <tbody>
+      <tr>
+        <td class="gutter">
+          <pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre>
+        </td>
+        <td class="code">
+          <pre class="code-highlight language-js js"><code class="js">//Con esto importamos la clase mascota
+const Mascota = require(&#34;./../app/mascota&#34;);
+
+//Crea una suite donde estarán todas tus pruebas
+describe(&#39;Unit test suite para Clase Mascota&#39;,() =&gt;{
 //Aqui se pone la primera prueba, que consiste en crear un objeto de la clase mascota
-test('1) Crear un objeto', () =&gt; {
-//Se crea el objeto con los atributos que queramos
-const perro = new Mascota('doggy', 2, 'shiba', ['croquetas', 'sobres', 'platano']);</p>
-<pre><code>//en expect ponemos la variable que queremos analizar
-//toBe nos dice que a lo que tiene que ser igual (existen mas funciones ademas de toBe)
-expect(perro.name).toBe(&amp;#34;doggy&amp;#34;);
+  test(&#39;1) Crear un objeto&#39;, () =&gt; {
+    //Se crea el objeto con los atributos que queramos
+    const perro = new Mascota(&#39;doggy&#39;, 2, &#39;shiba&#39;, [&#39;croquetas&#39;, &#39;sobres&#39;, &#39;platano&#39;]);
 
-//toBeGreaterThan nos dice si un numero es mayor que 2
-expect(perro.age).toBeGreaterThan(2);
+    //en expect ponemos la variable que queremos analizar
+    //toBe nos dice que a lo que tiene que ser igual (existen mas funciones ademas de toBe)
+    expect(perro.name).toBe(&#34;doggy&#34;);
+    
+    //toBeGreaterThan nos dice si un numero es mayor que 2
+    expect(perro.age).toBeGreaterThan(2);
+    
+    expect(perro.race).toBe(&#34;shiba&#34;);
+    
+    //not nos dice que la condicion que le sigue no debe de ser verdad
+    //toBeUndefined nos dice si la variable es indefinida
+    expect(perro.canSwim).not.toBeUndefined();
+    
+    //toContain sirve para saber si un elemento existe en un array
+    expect(perro.favoriteFood).toContain(&#34;croquetas&#34;);
+  })
+})</code></pre>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</figure>
 
-expect(perro.race).toBe(&amp;#34;shiba&amp;#34;);
-
-//not nos dice que la condicion que le sigue no debe de ser verdad
-//toBeUndefined nos dice si la variable es indefinida
-expect(perro.canSwim).not.toBeUndefined();
-
-//toContain sirve para saber si un elemento existe en un array
-expect(perro.favoriteFood).toContain(&amp;#34;croquetas&amp;#34;);
-</code></pre>
-<p>})
-})<!-- raw HTML omitted --><!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted --></p>
-<!-- raw HTML omitted -->
-<p>Guardamos cambios, nos vamos a nuestra consola y corremos la prueba</p>
+Guardamos cambios, nos vamos a nuestra consola y corremos la prueba</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-console" data-lang="console">&gt; npm test mascota.test.js
 <span style="color:#960050;background-color:#1e0010">
 </span><span style="color:#960050;background-color:#1e0010"></span>- mascota@1.0.0 test
@@ -496,19 +521,46 @@ Ran all test suites matching /test\\mascota.test.js/i.
 </code></pre></div><p>La prueba tronó debido a que mascota no es un constructor, debido a que aún no tenemos nada de código hecho. Ahora debemos crear el código mínimo para que lo pase.</p>
 <h5 id="2-hacer-que-el-test-pase">2. Hacer que el test pase</h5>
 <p>Abrimos el archivo <code>mascota.js</code> y escribimos lo siguiente.</p>
-<!-- raw HTML omitted -->
-<pre><code>  &lt;span&gt;mascota.js&lt;/span&gt;
-</code></pre>
-<!-- raw HTML omitted -->
-<p>}
+<p>
+  
+    
+  
+  
+    
+  
+  
+  
+
+
+<figure class="highlight js language-js">
+  <figcaption>
+    
+      <span>mascota.js</span>
+    
+  </figcaption>
+  <table>
+    <tbody>
+      <tr>
+        <td class="gutter">
+          <pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre>
+        </td>
+        <td class="code">
+          <pre class="code-highlight language-js js"><code class="js">//Creamos la clase Mascota
+class Mascota{
+  //Creamos un constructor para instanciar el objeto
+  constructor(name, age, race, favoriteFood){
+
+  }
 }
 //Exportamos nuestro modulo mascota para usarlo en otros archivos
-module.exports = Mascota;<!-- raw HTML omitted --><!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted --></p>
-<!-- raw HTML omitted -->
-<p>Corremos de nuevo nuestra prueba:</p>
+module.exports = Mascota;</code></pre>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</figure>
+
+Corremos de nuevo nuestra prueba:</p>
 <pre tabindex="0"><code class="language-terminal" data-lang="terminal">felix@bar:mascota/test$ npm test mascota.test.js
   Unit test suite para Clase Mascota
     × 1) Crear un objeto (7 ms)
@@ -537,16 +589,51 @@ Time:        0.784 s, estimated 1 s
 Ran all test suites matching /test\\mascota.test.js/i.
 </code></pre><p>Obtenemos un error nuevo, el cual nos dice que esperaba recibir el valor <code>&quot;doggy&quot;</code>, pero recibió <code>undefined</code>, ya que solo creamos la clase y el constructor vacío. Añadimos unas pocas líneas de
 código</p>
-<!-- raw HTML omitted -->
-<pre><code>  &lt;span&gt;mascota.js&lt;/span&gt;
-</code></pre>
-<!-- raw HTML omitted -->
-<p>//Exportamos nuestro modulo mascota para usarlo en otros archivos
-module.exports = Mascota;<!-- raw HTML omitted --><!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted --></p>
-<!-- raw HTML omitted -->
+
+  
+    
+  
+  
+    
+  
+  
+  
+
+
+<figure class="highlight js language-js">
+  <figcaption>
+    
+      <span>mascota.js</span>
+    
+  </figcaption>
+  <table>
+    <tbody>
+      <tr>
+        <td class="gutter">
+          <pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre>
+        </td>
+        <td class="code">
+          <pre class="code-highlight language-js js"><code class="js">//Creamos la clase Mascota
+class Mascota{
+  //Creamos un constructor para instanciar el objeto
+  constructor(name, age, race, favoriteFood){
+    //Con el this.foo podemos guardar los parametos a nuestro objeto
+    this.name = name;
+    this.age = age;
+    this.race = race;
+    this.canSwim = true;
+    this.favoriteFood = favoriteFood;
+  }
+}
+
+//Exportamos nuestro modulo mascota para usarlo en otros archivos
+module.exports = Mascota;</code></pre>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</figure>
+
 <p>Corremos una vez más nuestra prueba:</p>
 <pre tabindex="0"><code class="language-terminal" data-lang="terminal">felix@bar:mascota/test$ npm test test/mascota.test.js 
 
@@ -571,8 +658,6 @@ moviendo los valores después del <code>.toBe()</code> o equivalentes, pero eso 
 <ul>
 <li><a href="https://jestjs.io/docs/using-matchers">Documentación de Jest JS</a></li>
 </ul>
-</p>
-</div>
               
 
 
