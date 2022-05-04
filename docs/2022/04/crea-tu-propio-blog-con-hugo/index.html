@@ -337,8 +337,14 @@ y corremos el siguiente comando:</p>
 3. Start the built-in live server via &#34;hugo server&#34;.
 <span style="color:#960050;background-color:#1e0010">
 </span><span style="color:#960050;background-color:#1e0010"></span>Visit https://gohugo.io/ for quickstart guide and full documentation.
-</code></pre></div><p>Entramos a nuestro nuevo proyecto con el comando <code>cd mi_primer_blog</code>, y con <code>ls</code> veremos todos los archivos que hay en la carpeta. Si accedemos a cada una de las carpetas, veremos que casi
-todas se encuentran vacias.</p>
+</code></pre></div><p>Entramos a nuestro nuevo proyecto con el comando <code>cd mi_primer_blog</code>, y con <code>ls</code> veremos todos los archivos que hay en la carpeta. Si accedemos a cada una de las carpetas, veremos que casi todas se encuentran vacias.</p>
+<p>Aquí es un buen momento para iniciar nuestro repositorio en <em>git</em>, esto se hace con el comando</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-console" data-lang="console">&gt; git init
+</code></pre></div><p>De aquí en adelante, cada vez que hagamos un cambio sustancial, podemos correr los siguientes comandos</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-console" data-lang="console">&gt; git add nombreArchivoModificado
+&gt; git commit -m <span style="color:#e6db74">&#34;Agregar descripcion de la modificacion&#34;</span>
+</code></pre></div><p>Otro comando importante sería <code>git status</code>, el cual te ayudará a ver cuales son los archivos que se han modificado.</p>
+<p>Si bien, esto es de manera general, de momento esto sería lo más importante para continuar con el blog y tenerlo actualizado, si están interesados en saber más comandos de git, puedo hacer un post más adelante.</p>
 <h3 id="obtener-nuestro-tema">Obtener nuestro tema</h3>
 <p>El siguiente paso es, acceder al siguiente <a href="https://themes.gohugo.io/">link</a> en donde encontraremos todos los temas que podemos instalar para nuestro blog. Yo en este caso, utilizaré <a href="https://themes.gohugo.io/themes/hugo-tranquilpeak-theme/">tranquilpeak</a>.</p>
 <p>Nos movemos a la carpeta <code>themes</code>, y clonamos el repositorio de github</p>
