@@ -9,7 +9,7 @@ tags:
   - github actions
   - deploy
 thumbnailImagePosition: left
-thumbnailImage: https://www.adictosaltrabajo.com/wp-content/uploads/2020/10/android-github-actions-setup-image-35b6a79fea4a7289acb6796cd4ad05b4.png
+thumbnailImage: https://i.ytimg.com/vi/2MsN8gpT6jY/maxresdefault.jpg
 ---
 
 Llego el momento de subir nuestros blogs al internet, y que la gente nos lea, el despegue ha llegado y espero que estés listo!
