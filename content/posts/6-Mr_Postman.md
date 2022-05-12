@@ -62,7 +62,7 @@ Presionamos el botón azul que dice `send` y debemos de recibir una lista con va
 
 ![Interfaz de Postman](/images/6-mr-postman/Captura4.JPG)
 
-En este caso, el código de status es 200, por lo que no hubo ningún error, si no se hubiera encontrado la petición, hubieramos 
+En este caso, el código de status es `200`, por lo que no hubo ningún error, si no se hubiera encontrado la petición, hubieramos 
 encontrado el famoso código 404. Aquí te dejo un [link](https://developer.mozilla.org/es/docs/Web/HTTP/Status) con los códigos. 
 
 
