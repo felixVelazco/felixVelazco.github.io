@@ -6,17 +6,7 @@
     <description>Recent content in programming on Mekishiko-jin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 11 May 2022 19:26:29 -0600</lastBuildDate><atom:link href="https://felixvelazco.github.io/categories/programming/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Please Mr Postman</title>
-      <link>https://felixvelazco.github.io/2022/05/please-mr-postman/</link>
-      <pubDate>Wed, 11 May 2022 19:26:29 -0600</pubDate>
-      
-      <guid>https://felixvelazco.github.io/2022/05/please-mr-postman/</guid>
-      <description>&lt;p&gt;Estás creando una API y no sabes donde ver probar todos tus endpoints? O eres fanatico de la canción
-&lt;em&gt;Please Mister Postman&lt;/em&gt; de &lt;em&gt;The Beatles&lt;/em&gt;? Entonces estás en el lugar indicado!&lt;/p&gt;</description>
-    </item>
-    
+    <lastBuildDate>Wed, 04 May 2022 00:32:37 -0600</lastBuildDate><atom:link href="https://felixvelazco.github.io/categories/programming/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>3...2...1...Despliegue!</title>
       <link>https://felixvelazco.github.io/2022/05/3...2...1...despliegue/</link>
@@ -73,6 +63,16 @@ Y pues, si bien, están relacionadas entre si, no son lo mismo, y hoy veremos es
       <guid>https://felixvelazco.github.io/2022/04/welcome-to-my-blog/</guid>
       <description>&lt;p&gt;Les doy la bienvenida a mi blog, en este primer post voy a hablarles simplemente de que clase de contenido postearé de aquí en adelante, por lo que será
 algo rápido.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Please Mr Postman</title>
+      <link>https://felixvelazco.github.io/2022/04/please-mr-postman/</link>
+      <pubDate>Mon, 11 Apr 2022 19:26:29 -0600</pubDate>
+      
+      <guid>https://felixvelazco.github.io/2022/04/please-mr-postman/</guid>
+      <description>&lt;p&gt;Estás creando una API y no sabes donde ver probar todos tus endpoints? O eres fanatico de la canción
+&lt;em&gt;Please Mister Postman&lt;/em&gt; de &lt;em&gt;The Beatles&lt;/em&gt;? Entonces estás en el lugar indicado!&lt;/p&gt;</description>
     </item>
     
   </channel>
