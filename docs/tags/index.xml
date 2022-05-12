@@ -6,7 +6,34 @@
     <description>Recent content in Tags on Mekishiko-jin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 04 May 2022 00:32:37 -0600</lastBuildDate><atom:link href="https://felixvelazco.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 11 May 2022 19:26:29 -0600</lastBuildDate><atom:link href="https://felixvelazco.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>API</title>
+      <link>https://felixvelazco.github.io/tags/api/</link>
+      <pubDate>Wed, 11 May 2022 19:26:29 -0600</pubDate>
+      
+      <guid>https://felixvelazco.github.io/tags/api/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Endpoints</title>
+      <link>https://felixvelazco.github.io/tags/endpoints/</link>
+      <pubDate>Wed, 11 May 2022 19:26:29 -0600</pubDate>
+      
+      <guid>https://felixvelazco.github.io/tags/endpoints/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Postman</title>
+      <link>https://felixvelazco.github.io/tags/postman/</link>
+      <pubDate>Wed, 11 May 2022 19:26:29 -0600</pubDate>
+      
+      <guid>https://felixvelazco.github.io/tags/postman/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>deploy</title>
       <link>https://felixvelazco.github.io/tags/deploy/</link>
@@ -157,33 +184,6 @@
       <pubDate>Sun, 24 Apr 2022 00:00:00 +0000</pubDate>
       
       <guid>https://felixvelazco.github.io/tags/technology/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>API</title>
-      <link>https://felixvelazco.github.io/tags/api/</link>
-      <pubDate>Mon, 11 Apr 2022 19:26:29 -0600</pubDate>
-      
-      <guid>https://felixvelazco.github.io/tags/api/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Endpoints</title>
-      <link>https://felixvelazco.github.io/tags/endpoints/</link>
-      <pubDate>Mon, 11 Apr 2022 19:26:29 -0600</pubDate>
-      
-      <guid>https://felixvelazco.github.io/tags/endpoints/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Postman</title>
-      <link>https://felixvelazco.github.io/tags/postman/</link>
-      <pubDate>Mon, 11 Apr 2022 19:26:29 -0600</pubDate>
-      
-      <guid>https://felixvelazco.github.io/tags/postman/</guid>
       <description></description>
     </item>
     
