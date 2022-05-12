@@ -16,7 +16,7 @@ baseURL = "https://felixvelazco.github.io/"
 RelativeURLs=true
 CanonifyURLs=true
 
-disablePathToLower = true                                   # HERE
+#disablePathToLower = true                                   # HERE
 
 
 
