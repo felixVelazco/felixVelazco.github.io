@@ -9,20 +9,20 @@
     <lastBuildDate>Thu, 28 Apr 2022 02:18:48 -0600</lastBuildDate><atom:link href="https://felixvelazco.github.io/tags/unit-testing/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Jest Sir!</title>
-      <link>https://felixvelazco.github.io/2022/04/jest-sir/</link>
+      <link>https://felixvelazco.github.io/2022/04/Jest-Sir/</link>
       <pubDate>Thu, 28 Apr 2022 02:18:48 -0600</pubDate>
       
-      <guid>https://felixvelazco.github.io/2022/04/jest-sir/</guid>
+      <guid>https://felixvelazco.github.io/2022/04/Jest-Sir/</guid>
       <description>&lt;p&gt;Hola a todos los que lean esto! En el blog anterior les hable de manera general sobre la definición y la utilidad de las muestras unitarias en la creación de
 software, ahora toca ver la versión práctica del código, así que vamos a darle!&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Pruebas, pruebas y más pruebas</title>
-      <link>https://felixvelazco.github.io/2022/04/pruebas-pruebas-y-m%C3%A1s-pruebas/</link>
+      <link>https://felixvelazco.github.io/2022/04/Pruebas-pruebas-y-m%C3%A1s-pruebas/</link>
       <pubDate>Mon, 25 Apr 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://felixvelazco.github.io/2022/04/pruebas-pruebas-y-m%C3%A1s-pruebas/</guid>
+      <guid>https://felixvelazco.github.io/2022/04/Pruebas-pruebas-y-m%C3%A1s-pruebas/</guid>
       <description>&lt;p&gt;Hola de nuevo! Alguna vez se han preguntado de qué manera se puede corroborar que tu código en verdad funcione como debería 😎?&amp;hellip; No realmente?😅
 Pues aún así, este será tu día de suerte!&lt;/p&gt;</description>
     </item>
