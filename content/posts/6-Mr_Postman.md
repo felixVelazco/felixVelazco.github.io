@@ -5,6 +5,8 @@ categories:
   - programming
 tags:
   - Postman
+  - Endpoints
+  - API
 thumbnailImagePosition: left
 thumbnailImage: https://www.sngular.com/wp-content/uploads/2021/12/postman-logo-vert-2018.jpg
 ---
