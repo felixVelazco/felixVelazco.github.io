@@ -16,7 +16,7 @@ Estás creando una API y no sabes donde ver probar todos tus endpoints? O eres f
 
 <!--more-->
 
-Para quienes ya hallan trabajado con anterioridad con una API, ya estarán familiarizados con el término de `endpoint`, pero 
+<!-- Para quienes ya hallan trabajado con anterioridad con una API, ya estarán familiarizados con el término de `endpoint`, pero 
 si es la primera vez que escuchas todo esto, veamos una breve descripción.
 
 La palabra API es un acrónimo del inglés, que se traduce como "Interfaz de programación de aplicaciones". Esto puede sonar muy complicado, 
@@ -71,7 +71,7 @@ encontrado el famoso código 404. Aquí te dejo un [link](https://developer.mozi
 ![Error 404](https://i0.wp.com/learn.onemonth.com/wp-content/uploads/2017/08/1-10.png?fit=845%2C503&ssl=1)
 
 Puedes llegar incluso a documentar tus API desde postman, por lo que resulta muy conveniente de manejar. Y hasta aquí el post 
-de hoy, espero que algo de esto les halla servido. **Hasta la próxima!**
+de hoy, espero que algo de esto les halla servido. **Hasta la próxima!** -->
 
 
 
